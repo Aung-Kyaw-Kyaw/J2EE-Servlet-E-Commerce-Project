@@ -1,0 +1,42 @@
+* {
+	font-family: Cambria;
+}
+
+
+
+.badge-position {
+	position: relative;
+	top: -12px;
+	left: -10px;
+}
+
+.myslideshow {
+	height: 400px;
+}
+
+.myimgsize {
+	min-height: 200px;
+	max-height: 200px;
+	min-width: 200px;
+	max-width: 200px;
+}
+
+body {
+	background: url("");
+}
+
+.sidebar {
+	position: absolute;
+	width: 270px;
+	z-index : 1000;
+	transition : 1s;
+}
+
+.hidesidebar {
+	margin-left: -270px;
+}
+
+.mymenu {
+	color: white;
+	margin-right: 20px;
+}
